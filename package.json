@@ -1,0 +1,32 @@
+{
+  "name": "projectlistapi",
+  "version": "1.0.0",
+  "description": "A RESTful project list API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgonzalezcastello/learningREST_NodeJS.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API"
+  ],
+  "author": "Jesus Sergio Gonzalez Castellon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgonzalezcastello/learningREST_NodeJS/issues"
+  },
+  "homepage": "https://github.com/jgonzalezcastello/learningREST_NodeJS#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.4"
+  }
+}
