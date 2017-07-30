@@ -24,8 +24,15 @@ exports.create_a_project = function(req, res) {
 
 exports.read_a_project = function(req, res) {
   Project.findById({_id: req.params.projectID}, function(err, project) {
-    if (err)
-      res.send(err);
+    if (err){
+      //res.send(err);
+      Project.find({name: { "$regex": req.params.projectID, "$options": "i" }}, function(err2,project2){
+        if(err2){
+          res.send(err2);
+        }else
+        res.json(project2);
+      })
+    }else
     res.json(project);
   });
 };
