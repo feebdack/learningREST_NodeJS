@@ -12,12 +12,16 @@ Normal development server
 
 ### Testing
 Starts server using test ports (4100), and a test database(/projectTestDB).
+
 `mongod`
-`npm run test` Will start integration tests using port 4100, and the testing databse
+
+`npm run test`
 
 ### Testing Development
 Starts the server in a development environment using the test database.
+
 `mongod`
+
 `npm run testdev`
 
 ## REST API
