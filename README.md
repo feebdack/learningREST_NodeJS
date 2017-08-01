@@ -3,17 +3,19 @@ Creating simple REST API for learning purposes. This REST api will control the i
 
 ## How to run
 
-###Development Environment
+### Development Environment
 Normal development server
+
 `mongod`
+
 `npm run start` Will start the API server on port 80, using the development database
 
-###Testing
+### Testing
 Starts server using test ports (4100), and a test database(/projectTestDB).
 `mongod`
 `npm run test` Will start integration tests using port 4100, and the testing databse
 
-###Testing Development
+### Testing Development
 Starts the server in a development environment using the test database.
 `mongod`
 `npm run testdev`
