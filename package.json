@@ -4,7 +4,7 @@
   "description": "A RESTful project list API.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "SET NODE_ENV=test& mocha --timeout 10000",
     "start": "nodemon server.js"
   },
   "repository": {
@@ -22,7 +22,10 @@
   },
   "homepage": "https://github.com/jgonzalezcastello/learningREST_NodeJS#readme",
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "chai": "^4.1.0",
+    "mocha": "^3.5.0",
+    "nodemon": "^1.11.0",
+    "supertest": "^3.0.0"
   },
   "dependencies": {
     "body-parser": "^1.17.2",
