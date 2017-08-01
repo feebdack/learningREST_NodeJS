@@ -1,6 +1,23 @@
 # learningREST_NodeJS
 Creating simple REST API for learning purposes. This REST api will control the information needed for a Project Listing application, which will be developed on the Android OS.
 
+## How to run
+
+###Development Environment
+Normal development server
+`mongod`
+`npm run start` Will start the API server on port 80, using the development database
+
+###Testing
+Starts server using test ports (4100), and a test database(/projectTestDB).
+`mongod`
+`npm run test` Will start integration tests using port 4100, and the testing databse
+
+###Testing Development
+Starts the server in a development environment using the test database.
+`mongod`
+`npm run testdev`
+
 ## REST API
 ```
 get /projects
