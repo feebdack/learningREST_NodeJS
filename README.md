@@ -52,3 +52,4 @@ var ProjectSchema = new Schema({
 });
 ```
 ###### Set up of this RESTful server was largely guided through [Olatunde Garuba's article on codementor.io](https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd), and the vast resources publicly available on sites such as stackoverflow.com and restcookbook.com.
+###### Testing information also largely guided by [this article](https://www.codementor.io/olatundegaruba/integration-testing-supertest-mocha-chai-6zbh6sefz).
